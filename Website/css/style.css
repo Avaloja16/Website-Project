@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600');
+
+
+
+.background {
+    background: -webkit-linear-gradient(rgba(242, 242, 242, 0.1), rgba(255, 255, 255, 0.8)), url('../background.jpg'), no-repeat;
+    background: -o-linear-gradient(rgba(242, 242, 242, 0.1), rgba(255, 255, 255, 0.8)), url('../background.jpg'), no-repeat;
+    background: -moz-linear-gradient(rgba(242, 242, 242, 0.1), rgba(255, 255, 255, 0.8)), url('../background.jpg'), no-repeat;
+    background: linear-gradient(rgba(242, 242, 242, 0.1), rgba(255, 255, 255, 0.8)), url('../background.jpg'), no-repeat;
+}
+
+
+.content {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+header {
+    padding: 0 10px;
+}
+
+.logo {
+    float: left; 
+    display: inline;
+    width: 10%;
+}
+
+.main-header {
+    float: right;
+    display: inline;
+    width: 90%;
+}
+
+p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2, h3, h4 {
+    padding-bottom: 6px; 
+    border-bottom: 1px solid #505050;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-default {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 1.6rem;
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+.video-content {
+    padding-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #db2727;
+}
+
+a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #812626;
+    
+}
