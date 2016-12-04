@@ -20,72 +20,66 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<main class="container">
-<header class="row">
- <h1>Jupiter<br>
- <small>"When size matters"</small>
- <img src="teamjupiterlogo" alt="Team Logo" style="width:100px;height:100px">
- </h1>
- 
-<nav class="navbar navbar-default">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span> 
-			</button>      
-		</div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-		<ul class="nav navbar-nav">        
-			<li><a href="#">Etusivu</a></li>
-			<li><a href="Projektisivu.html">Tiimi</a></li>
-			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Opintojakson Aiheita <span class="caret"></span></a>
-			<ul class="dropdown-menu">
-				<li><a href="projektinhallinta.html"> Projektinhallina</a></li>
-				<li><a href="liiketoiminta.html">Liiketoiminta</a></li>
-				<li><a href="tietoverkot.html">Tietoverkot- ja tietoturva</a></li>
-				<li><a href="tyokalut.html">IT-työkalut</a></li>
-				<li><a href="Webo.html">Web-ohjelmointi</a></li>
-				<li><a href="ohjelmointi.html">Ohjelmointi</a></li>
-			</ul>
-			</li>	
-			<li><a href="ITala.html">IT-Ala</a></li> 
-		</ul>      
+    <div class="container-fluid background">
+        <main class="container content">
+        <header class="row">
+            <img src="teamjupiterlogo.png" alt="Team Logo" class="logo">
+            <h1 class="main-header">Team Jupiter<br>
+            <small>"When size matters"</small>	
+            </h1>
+
+
+        </header>
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                    </button>      
+                </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">        
+                    <li><a href="#">Etusivu</a></li>
+                    <li><a href="Projektisivu.html">Tiimi</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Opintojakson Aiheita <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="projektinhallinta.html"> Projektinhallina</a></li>
+                        <li><a href="liiketoiminta.html">Liiketoiminta</a></li>
+                        <li><a href="tietoverkot.html">Tietoverkot- ja tietoturva</a></li>
+                        <li><a href="tyokalut.html">IT-työkalut</a></li>
+                        <li><a href="Webo.html">Web-ohjelmointi</a></li>
+                        <li><a href="ohjelmointi.html">Ohjelmointi</a></li>
+                    </ul>
+                    </li>	
+                    <li><a href="ITala.html">IT-Ala</a></li> 
+                </ul>      
+            </div>
+          </div>
+        </nav>    
+
+        <div class="row content">
+            <article class="col-sm-12">
+                <h3>Ohjelmointi</h3>
+                    <p>Ohjelmoinnissa käytettään useimmiten korkeantason kielijä ohjelmien tekemiseen, kuten Python, C++, Java, Pascal, C# ja PHP.  Vaikka tietokoneet toimivat alemman tason kielillä, nämä ovat ihmisille helpompia luettavia. Ohjelma on yksinkertaisuudessaan jono komentoja, jonka tietokone toteuttaa tietyn toiminnan aikaansaamiseksi, ja nämä toiminnot voivat olla matemaattisten laskutoimitusten selvittämistä tai symbolista tekstin läpikäymistä. Ohjelmointikielet eroavat toisistaan hiukan, mutta niiden perustoiminnot ovat lähes samanlaiset; Tehtävälle toiminnolle annetaan tietoa, kerrotaan kuinka sen täytyy kyseinen tieto käsitellä, ja mitä sen täytyy tuottaa.</p>
+                    <p>Ohjelmakielet ovat ns. muodollisia kielijä, ja sen takia niiden ohjeistuksissa täytyy olla erittäin tarkka. Tietokoneet eivät lue tekstiä samalla tavalla kuin me luemme, jonka vuoksi tekemämme koodi ei välttämättä toimi kuin oletamme. Virheiden etsintä on yhtä iso ohjelmointia kuin varsinainen koodaaminen. Erilaisia virheitä ovat syntaksi-, semanttiset-, ja suorituksenaikaiset virheet.</p>
+                    <p>Ohjelmmoinnissa käytetään arvoja, joita ohjelmat pystyvät manipuloimaan toimintojen toteuttamiseen. Arvot jaetaa eri luokkiin kuten integer, string ja float. Luokasta riippuen ne käyttäytyvät eri tavalla, mutta niiden manipulointi tapahtuu samalla tavalla: muuttujilla. Muuttujat voivat olla numeroita tai tekstipätkijä, ja näiden muuttujien arvot määrittää sen mihin luokkaan ne kuuluvat. Arvon lisäksi muuttujilla on aina nimi, ja nimi voi olla sen kaltainen kuin ohjelmoija haluaa sen olevan. Ainoa rajoite nimissä voi olla syntax.</p>
+                    <p>Mainitsemillani arvo-luokilla on rajoituksia toistensa kanssa toimimisessa, mutta onneksi pystymme näitä luokkia muuttamaan tarpeen vaatiessa sopiviksi. Koodi luetaan yleisesti ylhäältä alaspäin, mutta laskutoimituksissa voi tapahtua monta asiaa samaan aikaan yhdellä linjalla. Matematiikan laskutoimitusten järjestyssäännöt pätevät ohjelmoinnissa, joten ongelmia ei synny kunham muistaa PEMDAS:in.</p>
+            </article>
+        </div>	
+
+        <div class="row content">
+            <article class="col-sm-12">
+                <h3>Programming</h3>
+            </article>
+        </div>	
+        </main>
     </div>
-  </div>
-</nav>
-</header>
-
-<div class="row content">
-	<article class="col-sm-12">
-		<h3>Ohjelmointi</h3>
-			<p>Ohjelmoinnissa käytettään useimmiten korkeantason kielijä ohjelmien tekemiseen, kuten Python, C++, Java, Pascal, C# ja PHP.  Vaikka tietokoneet toimivat alemman tason kielillä, nämä ovat ihmisille helpompia luettavia. Ohjelma on yksinkertaisuudessaan jono komentoja, jonka tietokone toteuttaa tietyn toiminnan aikaansaamiseksi, ja nämä toiminnot voivat olla matemaattisten laskutoimitusten selvittämistä tai symbolista tekstin läpikäymistä. Ohjelmointikielet eroavat toisistaan hiukan, mutta niiden perustoiminnot ovat lähes samanlaiset; Tehtävälle toiminnolle annetaan tietoa, kerrotaan kuinka sen täytyy kyseinen tieto käsitellä, ja mitä sen täytyy tuottaa.</p>
-			<p>Ohjelmakielet ovat ns. muodollisia kielijä, ja sen takia niiden ohjeistuksissa täytyy olla erittäin tarkka. Tietokoneet eivät lue tekstiä samalla tavalla kuin me luemme, jonka vuoksi tekemämme koodi ei välttämättä toimi kuin oletamme. Virheiden etsintä on yhtä iso ohjelmointia kuin varsinainen koodaaminen. Erilaisia virheitä ovat syntaksi-, semanttiset-, ja suorituksenaikaiset virheet.</p>
-			<p>Ohjelmmoinnissa käytetään arvoja, joita ohjelmat pystyvät manipuloimaan toimintojen toteuttamiseen. Arvot jaetaa eri luokkiin kuten integer, string ja float. Luokasta riippuen ne käyttäytyvät eri tavalla, mutta niiden manipulointi tapahtuu samalla tavalla: muuttujilla. Muuttujat voivat olla numeroita tai tekstipätkijä, ja näiden muuttujien arvot määrittää sen mihin luokkaan ne kuuluvat. Arvon lisäksi muuttujilla on aina nimi, ja nimi voi olla sen kaltainen kuin ohjelmoija haluaa sen olevan. Ainoa rajoite nimissä voi olla syntax.</p>
-			<p>Mainitsemillani arvo-luokilla on rajoituksia toistensa kanssa toimimisessa, mutta onneksi pystymme näitä luokkia muuttamaan tarpeen vaatiessa sopiviksi. Koodi luetaan yleisesti ylhäältä alaspäin, mutta laskutoimituksissa voi tapahtua monta asiaa samaan aikaan yhdellä linjalla. Matematiikan laskutoimitusten järjestyssäännöt pätevät ohjelmoinnissa, joten ongelmia ei synny kunham muistaa PEMDAS:in.</p>
-	</article>
-</div>	
-
-<div class="row content">
-	<article class="col-sm-12">
-		<h3>Programming</h3>
-	</article>
-</div>	
-
-</body>
 
 
 
-
-
-
-
-
-
-
-
-</main>
     <!-- /.container -->
  
  
